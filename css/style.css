@@ -1,0 +1,172 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    background-image: url("../imagens/fundo.png");
+    background-repeat: no-repeat;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo a{
+    background: url("../imagens/Employ-logo-cor-fundo-branco.png") no-repeat;
+    background-size: contain;
+    display: block;
+    width: 200px;
+    height: 45px;
+    text-indent: -4000px;
+}
+
+#lista-nav{
+    display: flex;
+    margin-left: -95px;
+}
+
+#lista-nav li{
+    list-style-type: none;
+    padding: 15px 15px;
+}
+
+.caret::after{
+    content: "\2227";
+    padding-left: 5px;
+}
+
+.bts a{
+    padding: 15px;
+    display: flex;
+    margin-left: 5px;
+    border-radius: 7%;
+    height: 15px;
+    align-items: center;
+}
+
+.bts{
+    display: flex;
+    margin-left: auto;
+}
+
+.bts .log-in{
+    height: 12px;
+    border: 1px solid #000;
+}
+
+.bts .get-started{
+    background-color: #0e34dd;
+    color: #fff;
+    
+}
+
+#container{
+    width: 80%;
+    margin: 15px auto;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.text h2{
+    font-size: 2.5em;
+    margin: 75px auto 0 auto;
+    width: 53%;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.text p{
+    font-size: 1.2em;
+    margin: 25px auto 70px auto;
+    width: 20%;
+    font-weight: 200;
+    font-style: normal;
+
+}
+
+.info{
+    text-align: right;
+    font-size: 0.8em;
+    padding: 10px;
+    opacity: 80%;
+}
+.planos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box{
+    padding: 10px;
+    margin: 0 10px;
+    width: 25%;
+    height: 300px;
+    border-radius: 5%;
+    background-color: #fff;
+    text-align: center;
+}
+
+.plus{
+    color: #00966e;
+}
+
+.pro{
+    color: #1e64f0;
+}
+
+.advanced{
+    color: #815fe0;
+}
+
+.box .titulo{
+    font-size: 2em;
+    text-align: center;
+    margin-top: 10px; 
+    margin-bottom: 10px;   
+}
+.box .valor{
+    font-size: 3.5em;
+    margin-bottom: 20px;
+    display: inline;
+}
+
+.box .descricao{
+    font-size: 0.9em;
+    font-weight: 700;
+    opacity: 60%;
+}
+
+.checked::before {
+    content: "\2713";
+    padding-right: 5px; 
+}
+
+.box .vantagens{
+    margin-left: 10px;
+    opacity: 40%;
+    text-align: left;
+}
+
+.box .assinar{
+    display: flex;
+    margin: 10px 5px;
+    padding: 10px 20px;
+    width: 75%;
+    height: 30px;
+    background-color: #815fe0;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.box .padrao{
+    background-color: #0e34dd; 
+}
